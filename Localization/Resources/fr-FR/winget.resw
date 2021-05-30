@@ -264,18 +264,18 @@ Elles peuvent être configurées par le biais du fichier de paramètres « wing
     <value>Installe le package donné</value>
   </data>
   <data name="InstallerHashMismatchAdminBlock" xml:space="preserve">
-    <value>Le code de hachage de l’installation ne correspond pas ; ceci ne peut pas être contourné lors d’une exécution en tant qu’administrateur</value>
+    <value>La somme de contrôle de l’installation ne correspond pas ; ceci ne peut pas être contourné lors d’une exécution en tant qu’administrateur</value>
   </data>
   <data name="InstallerHashMismatchOverridden" xml:space="preserve">
-    <value>Le code de hachage de l’installation ne correspond pas ; procédure pour des raisons de --force</value>
+    <value>L'empreinte numérique de l’installation ne correspond pas ; procédure pour des raisons de --force</value>
     <comment>{Locked="--force"}</comment>
   </data>
   <data name="InstallerHashMismatchOverrideRequired" xml:space="preserve">
-    <value>Le code de hachage de l’installation ne correspond pas ; pour contourner cette vérification, utiliser --force</value>
+    <value>L'empreinte numérique de l’installation ne correspond pas ; pour contourner cette vérification, utiliser --force</value>
     <comment>{Locked="--force"}</comment>
   </data>
   <data name="InstallerHashVerified" xml:space="preserve">
-    <value>Le code de hachage de l’installation a été vérifié avec succès</value>
+    <value>L'empreinte numérique de l’installation a été vérifié avec succès</value>
   </data>
   <data name="InstallFlowInstallSuccess" xml:space="preserve">
     <value>Installé correctement</value>
@@ -284,7 +284,7 @@ Elles peuvent être configurées par le biais du fichier de paramètres « wing
     <value>Démarrage du package d’installation... Merci de patienter.</value>
   </data>
   <data name="InstallForceArgumentDescription" xml:space="preserve">
-    <value>Remplacer la vérification du code de hachage de l’installation</value>
+    <value>Remplacer la vérification de l'empreinte numérique  de l’installation</value>
   </data>
   <data name="InteractiveArgumentDescription" xml:space="preserve">
     <value>Demander une installation interactive; l’intervention de l’utilisateur peut être nécessaire</value>
@@ -898,10 +898,10 @@ Elles peuvent être configurées par le biais du fichier de paramètres « wing
 La configuration est désactivée en raison d’une stratégie de groupe.</value>
   </data>
   <data name="InstallerHashMismatchError" xml:space="preserve">
-    <value>Le code de hachage du programme d’installation ne correspond pas.</value>
+    <value>L'empreinte numérique du programme d’installation ne correspond pas.</value>
   </data>
   <data name="PolicyEnableHashOverride" xml:space="preserve">
-    <value>Activer le remplacement de code de hachage du Programme d’installation de l’application Windows</value>
+    <value>Activer le remplacement de l'empreinte numérique du Programme d’installation de l’application Windows</value>
   </data>
   <data name="SourceExportCommandLongDescription" xml:space="preserve">
     <value>Exportez les sources actuelles en tant que JSON pour la stratégie de groupe.</value>
